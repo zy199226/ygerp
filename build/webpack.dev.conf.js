@@ -27,8 +27,7 @@ module.exports = merge(baseWebpackConfig, {
         hot: true,
         inline: true,
         open: true,
-        progress: true,
-        clientLogLevel: 'warning',
+        clientLogLevel: 'warning'
         // proxy: {
         //     '/api': {
         //         target: '',
